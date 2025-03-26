@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#home{
+    background: url(../images/img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* ---------------------- Nav */
+.navegation{
+    background-color: black;
+}
+
+.navegation a{
+    color: white;
+    text-decoration: none;
+}
+
+.navegation a:hover{
+    color: #9bf0e1;
+}
+
+nav.navegation-transparent{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #9bf0e1;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+
+
+/* ---------------------- Cover */
+.cover{
+    text-align: center;
+}
