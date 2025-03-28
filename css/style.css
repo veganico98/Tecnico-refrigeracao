@@ -5,13 +5,13 @@
 html, body, #home{
     height: 100%;
     overflow-x: hidden;
-    font-family: ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #home{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #home::before{
@@ -23,7 +23,7 @@ html, body, #home{
     background: url(../images/img-1.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply;
     background-position: center;
     filter: blur(2px);
@@ -90,7 +90,12 @@ nav.navegation-transparent{
 
 /* ---------------------- About */
 #about {
-    background-color: white;    
+    background-color: white;
+    border: 1px solid red;    
+}
+
+#about h2{
+    color: #0d3d9f;
 }
 
 .box {
@@ -99,7 +104,8 @@ nav.navegation-transparent{
 
 .cover_about img {
     max-height: 300px;
-    width: 100%; 
+    width: auto;
+    height: auto;
 }
 .row {
     display: flex;
@@ -113,3 +119,21 @@ nav.navegation-transparent{
     align-items: center;
 }
 
+#servicos{
+    border: 1px solid green;
+    background-color: rgba(0,0,0,0.1);
+}
+
+footer{
+    border-top: 1px solid white;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .cover_about {
+        display: none !important;
+    }
+}
