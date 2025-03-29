@@ -46,6 +46,9 @@ html, body {
 /* Work */
 #work {
     background-image: url('../images/img-4.jpg');
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    color: white;
 }
 
 /* Botão Personalizado */
