@@ -1,30 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tec. Refrigeração Rodolfo Ricci</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
-    crossorigin="anonymous">
-
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top navegation navegation-transparent">
             <div class="container">
                 <a href="index.html" class="navbar-brand">
-                    <img src="images/Logo_TR_RR.jpg" width="142">
+                    <img src="images/Logo_TR_RR_2.png" width="142">
                 </a>
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -33,92 +26,76 @@
 
                 <div id="nav-principal" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="">Sobre nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="">Contatos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href=""></a>
-                        </li>
+                        <li class="nav-item"><a href="#home">Início</a></li>
+                        <li class="nav-item"><a href="#about">Sobre Nós</a></li>
+                        <li class="nav-item"><a href="#work">Serviços</a></li>
+                        <li class="nav-item"><a href="#contact">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-
-    <section id="home" class="d-flex">
-        <div class="container align-self-center">
-            <div class="row">
-                <div class="col-md-12 cover">
-                    <div class="text-center">
-                        <img class="img-fluid" src="images/Logo_TR_RR.jpg">
-                    </div>
-                    <div class="text-center mt-3">
-                        <a class="btn btn-lg btn-white btn-custom" href="#about"><strong>Sobre nós</a></strong></a>
-                    </div>
-                </div>
+    <!-- Seção Home -->
+    <section id="home" class="parallax">
+        <div class="container text-center">
+            <img class="img-fluid logo" src="images/Logo_TR_RR_2.png">
+            <div class="mt-3">
+                <a class="btn btn-lg btn-white btn-custom" href="#about"><strong>Sobre nós</strong></a>
             </div>
+        </div>
     </section>
 
-
+    <!-- Seção Sobre Nós -->
     <section id="about" class="box">
         <div class="container">
             <div class="row">
-
-                <div class="col-md-6 d-flex justify-content-start flex-column">
+                <div class="col-md-6 d-flex flex-column">
                     <h2>Quem somos?</h2>
-                    <p>Somos uma empresa familiar especializada em suporte
-                        e assistência técnica para sistemas de ar condicionado. 
-                        Com anos de experiência no setor, oferecemos serviços de 
-                        manutenção, instalação e reparo para garantir o máximo 
-                        desempenho e eficiência dos equipamentos. Nosso compromisso
-                         é proporcionar conforto e qualidade para nossos clientes, 
-                         sempre com um atendimento próximo, profissional e de 
-                         confiança. Seja para residências, empresas ou indústrias, 
-                         estamos prontos para oferecer as melhores soluções em 
-                         climatização.</p>
-                </div>
+                    <p>Somos uma empresa especializada em suporte técnico para sistemas de ar-condicionado, oferecendo soluções eficientes e personalizadas para clientes residenciais, comerciais e industriais. Com anos de experiência no setor, contamos com uma equipe altamente qualificada e comprometida em garantir o melhor desempenho e a maior durabilidade dos equipamentos.
 
-                <div class="col-md-6 d-flex align-items-center justify-content-end cover_about d-none d-md-flex">
-                    <img class="img-fluid" src="images/img-3.jpg">
+                        Nossos serviços incluem manutenção preventiva e corretiva, instalação de novos sistemas, limpeza e higienização, além de diagnósticos técnicos precisos para evitar falhas e reduzir custos operacionais. Trabalhamos com equipamentos das principais marcas do mercado, sempre utilizando materiais de qualidade e seguindo as melhores práticas do setor.
+                        
+                        Nosso compromisso vai além do suporte técnico: buscamos oferecer um atendimento diferenciado, ágil e transparente, garantindo que cada cliente tenha uma experiência satisfatória e um ambiente climatizado com segurança e conforto.
+                        
+                        Seja para empresas, indústrias ou residências, estamos preparados para atender suas necessidades com eficiência e profissionalismo. Conte conosco para manter seu sistema de climatização sempre em pleno funcionamento!</p>
                 </div>
-                
+                <div class="col-md-6 d-none d-md-flex align-items-center justify-content-end">
+                    <img class="img-fluid about-img" src="images/img-3.jpg">
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="servicos" class="box">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center justify-content-end cover_about d-none d-md-flex">
-                    <img class="img-fluid" src="images/img-3.jpg">
-                </div>
-                <div class="col-md-6 d-flex justify-content-start flex-column">
-                    <h2>Nossos serviços</h2>
-                    <p>.</p>
-                </div>
-            </div>
+    <!-- Seção Serviços -->
+    <section id="work" class="parallax">
+        <div class="container text-center">
+            <h1>Nossos serviços</h1>
+            <p>Na nossa empresa, oferecemos soluções completas para garantir o máximo desempenho e eficiência do seu sistema de climatização. Contamos com uma equipe altamente qualificada para atender a todas as suas necessidades, desde a instalação até a manutenção preventiva e corretiva.</p>
+
+            <h2>Manutenção Preventiva</h2>
+            <p>Evite problemas antes que eles aconteçam! Realizamos inspeções periódicas e ajustes técnicos para garantir o funcionamento contínuo e eficiente do seu ar-condicionado, aumentando sua vida útil e reduzindo custos com reparos.</p>
+
+            <h2>Reparo e Assistência Técnica</h2>
+            <p>Seu ar-condicionado parou de funcionar ou está apresentando falhas? Nossa equipe especializada diagnostica e corrige problemas rapidamente, garantindo o restabelecimento do conforto térmico no menor tempo possível.</p>
+
+            <h2>Instalação Profissional</h2>
+            <p>A instalação correta do seu sistema de climatização faz toda a diferença no seu desempenho e durabilidade. Trabalhamos com equipamentos de todas as marcas e modelos, garantindo uma instalação segura e eficiente.</p>
+
+            <h2>Limpeza e Higienização</h2>
+            <p>A qualidade do ar que você respira depende da limpeza do seu sistema de climatização. Removemos impurezas, mofo e bactérias, garantindo um ambiente mais saudável para você e sua família.</p>
 
         </div>
     </section>
-    <footer>
-        <div>
-            kowemcokw
-        </div>
+
+    <footer id="contact">
+        <div class="text-center p-3 text-white">© 2024 Tec. Refrigeração Rodolfo Ricci</div>
     </footer>
-
-    
 
 </body>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </html>
