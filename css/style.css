@@ -63,13 +63,23 @@ h1, h2, h3 {
     color: var(--branco);
     border-radius: 50px;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 12px 30px;
     transition: 0.4s;
+    width: 220px; /* largura fixa maior */
+    margin: 10px;
+    font-size: 1.2rem;
 }
 
 .btn-custom:hover {
     background-color: var(--branco);
     color: var(--cor-primaria);
+}
+
+/* Responsivo opcional: botão ocupa 100% em telas pequenas */
+@media (max-width: 576px) {
+    .btn-custom {
+        width: 100%;
+    }
 }
 
 /* Sobre */
