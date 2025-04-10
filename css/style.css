@@ -105,10 +105,106 @@ h1, h2, h3 {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
+/* Contacts */
 footer {
     background: var(--cor-primaria);
     color: var(--cor-suave);
-    padding: 20px;
-    text-align: center;
+    padding: 20px 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.text-footer {
+    font-size: 14px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-contacts li {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacts li a {
+    color: var(--cor-suave);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacts li a:hover {
+    color: var(--branco);
+}
+
+.socialEmail,
+.SocialWhatsapp {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 10px;
+    text-indent: -9999px;
+    position: relative;
+}
+
+
+.socialEmail {
+    background-image: url('../images/email1.png');
+    background-size: cover;
+    position: relative;
+}
+
+.socialEmail::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../images/email2.png');
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.socialEmail:hover::after {
+    opacity: 1;
+}
+
+.SocialWhatsapp {
+    background-image: url('../images/whatsapp1.png');
+    background-size: cover;
+    position: relative;
+}
+
+.SocialWhatsapp::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../images/whatsapp2.png');
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.SocialWhatsapp:hover::after {
+    opacity: 1;
+}
+
+.direitos{
+    font-size: 0.8em;
 }
