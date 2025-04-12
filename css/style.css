@@ -65,7 +65,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     padding: 12px 30px;
     transition: 0.4s;
-    width: 220px; /* largura fixa maior */
+    width: 220px;
     margin: 10px;
     font-size: 1.2rem;
 }
@@ -75,7 +75,6 @@ h1, h2, h3 {
     color: var(--cor-primaria);
 }
 
-/* Responsivo opcional: botão ocupa 100% em telas pequenas */
 @media (max-width: 576px) {
     .btn-custom {
         width: 100%;
@@ -100,22 +99,48 @@ h1, h2, h3 {
     color: var(--branco);
 }
 
-.work_area h3 {
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-title {
     background: var(--cor-destaque);
     color: var(--cor-primaria);
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
     transition: 0.3s ease;
 }
 
-.work_area h3:hover {
+.service-title:hover {
     background: var(--cor-suave);
     transform: scale(1.02);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Contacts */
+/* Transição suave */
+.service-desc {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0 15px;
+    background: var(--branco);
+    color: var(--cor-primaria);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.3s ease;
+}
+
+.service-desc.open {
+    max-height: 200px;
+    opacity: 1;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Contato */
 footer {
     background: var(--cor-primaria);
     color: var(--cor-suave);
@@ -174,9 +199,8 @@ footer {
     position: relative;
 }
 
-
 .socialEmail {
-    background-image: url('../images/email1.png');
+    background-image: url('../images/email2.png');
     background-size: cover;
     position: relative;
 }
@@ -185,7 +209,7 @@ footer {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('../images/email2.png');
+    background-image: url('../images/email1.png');
     background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -196,7 +220,7 @@ footer {
 }
 
 .SocialWhatsapp {
-    background-image: url('../images/whatsapp1.png');
+    background-image: url('../images/whatsapp2.png');
     background-size: cover;
     position: relative;
 }
@@ -205,7 +229,7 @@ footer {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('../images/whatsapp2.png');
+    background-image: url('../images/whatsapp1.png');
     background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -215,6 +239,6 @@ footer {
     opacity: 1;
 }
 
-.direitos{
+.direitos {
     font-size: 0.8em;
 }
