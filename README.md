@@ -1,8 +1,25 @@
 <div align="center">
-  <h1>Projeto: Portifólio Tecnico de refigeração</h1> 
-  <img width="120px" height="40px" src="images/Logo_TR_RR_2_.png">
-  <p>Projeto feito para treino das minhas habilidades de front-end</p>
-  <p>Neste projeto, foram utilizados conceitos de HTML, CSS e Bootstrap</p>
+  <h1>Portfólio Técnico de Refrigeração</h1> 
+  <img width="120" height="40" src="images/Logo_TR_RR_2_.png" alt="Logo do Projeto">
+  <p>Projeto desenvolvido para aprimorar habilidades em desenvolvimento front-end.</p>
 </div>
 
-<img src="images/RodolfoRicci - index.png">
+---
+
+## Sobre o Projeto
+
+Este projeto é um portfólio técnico voltado para a área de refrigeração. Foi criado com o objetivo de praticar e demonstrar conhecimentos em tecnologias front-end, com foco em estruturação visual e responsividade.
+
+---
+
+## Tecnologias Utilizadas
+
+- **HTML5** – estrutura da página
+- **CSS3** – estilização personalizada
+- **Bootstrap** – framework para responsividade e componentes
+
+---
+
+## Preview
+
+<img src="images/RodolfoRicci - index.png" alt="Captura de tela do projeto">
