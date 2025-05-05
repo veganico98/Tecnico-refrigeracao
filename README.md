@@ -23,3 +23,4 @@ Este projeto é um portfólio técnico voltado para a área de refrigeração. F
 ## Preview
 
 <img src="images/RodolfoRicci - index.png" alt="Captura de tela do projeto">
+
